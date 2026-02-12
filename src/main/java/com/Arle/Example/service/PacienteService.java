@@ -1,9 +1,9 @@
 
-package com.arle.example.service;
+package com.Arle.Example.service;
 
-import com.arle.example.dto.PacienteDTO;
-import com.arle.example.model.Paciente;
-import com.arle.example.repository.PacienteRepository;
+import com.Arle.Example.dto.PacienteDTO;
+import com.Arle.Example.model.Paciente;
+import com.Arle.Example.repository.PacienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -53,6 +53,6 @@ public class PacienteService {
     }
 
     private Paciente toEntity(PacienteDTO dto) {
-        return new Paciente(null, dto.getNombre(), dto.getEdad(), dto.getTelefono(), dto.getCorreo());
+        return new Paciente(null, dto.getNombre(), dto.getEdad(), dto.getTelefono(), dto.getCorreo(), null);
     }
 }

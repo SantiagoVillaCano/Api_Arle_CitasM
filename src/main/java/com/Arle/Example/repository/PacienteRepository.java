@@ -1,6 +1,6 @@
-package com.arle.example.repository;
+package com.Arle.Example.repository;
 
-import com.arle.example.model.Paciente;
+import com.Arle.Example.model.Paciente;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

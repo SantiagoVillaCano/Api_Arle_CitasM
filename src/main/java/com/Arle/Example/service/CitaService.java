@@ -1,10 +1,10 @@
-package com.arle.example.service;
+package com.Arle.Example.service;
 
-import com.arle.example.dto.CitaDTO;
-import com.arle.example.model.Cita;
-import com.arle.example.model.Paciente;
-import com.arle.example.repository.CitaRepository;
-import com.arle.example.repository.PacienteRepository;
+import com.Arle.Example.dto.CitaDTO;
+import com.Arle.Example.model.Cita;
+import com.Arle.Example.model.Paciente;
+import com.Arle.Example.repository.CitaRepository;
+import com.Arle.Example.repository.PacienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

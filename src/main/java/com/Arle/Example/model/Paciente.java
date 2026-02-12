@@ -1,4 +1,4 @@
-package com.arle.example.model;
+package com.Arle.Example.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

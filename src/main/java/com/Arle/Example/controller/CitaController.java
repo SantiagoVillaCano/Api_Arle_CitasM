@@ -1,7 +1,7 @@
-package com.arle.example.controller;
+package com.Arle.Example.controller;
 
-import com.arle.example.dto.CitaDTO;
-import com.arle.example.service.CitaService;
+import com.Arle.Example.dto.CitaDTO;
+import com.Arle.Example.service.CitaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

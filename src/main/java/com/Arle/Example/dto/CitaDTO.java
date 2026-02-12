@@ -1,4 +1,4 @@
-package com.arle.example.dto;
+package com.Arle.Example.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
